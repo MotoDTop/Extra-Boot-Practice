@@ -21,6 +21,6 @@ function selectTopic() {
 
 console.log('Rock Paper Scissors');
 listTopics();
-console.log('Which do you choose? Rock, Paper, Or Scissors'
+console.log('Paper over Rock, Scissors over Paper, Rock over Scissors'
 );
 selectTopic();
