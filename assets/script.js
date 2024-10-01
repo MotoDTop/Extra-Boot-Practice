@@ -1,4 +1,4 @@
-const topics = ['ROCK, PAPER, SCISSORS'];
+const topics = ['ROCK', 'PAPER', 'SCISSORS'];
 const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 function listTopics() {
@@ -19,7 +19,7 @@ function selectTopic() {
  }
 }
 
-console.log('here are your choices');
+console.log('Rock Paper Scissors');
 listTopics();
 console.log('Which do you choose? Rock, Paper, Or Scissors'
 );
