@@ -1,35 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
    }
    
-   header,
+   header {width: 100%;
+    height: 100px;
+    background-color: rgb(4, 76, 165);
+    color: rgb(162, 208, 64);
+   }
+
+
    footer {
     width: 100%;
-    height: 120px;
-    background-color: blue;
-    color: white;
+    height: 50px;
+    background-color: rgb(4, 76, 165);
+    color: rgb(162, 208, 64);
    }
-   
+ 
    h1,
    h2 {
     text-align: center;
    }
-   
+
+
    img {
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   img {
+    display: block;
+    height: 100px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
    }
    
    ul {
-    padding-left: 40px;
-    font-size: 20px;
+    padding-left: 80px;
+    font-size: 40px;
    }
    
    p {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
    }
+   .card {
+    width: 100%;
+    margin: 30px auto;
+    border: 10px solid rgb(4, 76, 165);
+    box-shadow: 5px 10px #494849;
+  }
